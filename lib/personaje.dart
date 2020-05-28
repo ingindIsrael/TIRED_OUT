@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'grilla.dart';
+import 'personaje2.dart';
 
 void main() {
   runApp(MyApp2());
@@ -22,7 +23,7 @@ class MyApp2 extends StatelessWidget {
              // title: Text('Tire out: the realize game'),
             //),
             body: Stack(children: <Widget>[
-              Grilla()
+              Personaje2()
                 ]
             ),
     )

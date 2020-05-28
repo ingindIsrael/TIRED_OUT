@@ -31,7 +31,8 @@ class Caratula extends StatelessWidget {
                 },
                 child:
 
-                      Column(children: <Widget>[
+                      Column(
+                          children: <Widget>[
                         Container(
                           height: 300,
                           margin: EdgeInsets.only(left: 10),
@@ -63,6 +64,8 @@ class Caratula extends StatelessWidget {
                           ),
                         ),
                 Container(
+
+
                   margin: EdgeInsets.only(left: 100),
                   height: 350,
                     width: 500,
